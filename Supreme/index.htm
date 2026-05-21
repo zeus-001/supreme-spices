@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <link rel="icon" type="image/x-icon" href="favicon.ico" />
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Supreme Spices</title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: Arial, sans-serif;
+    }
+
+    body {
+      background: #fff8f0;
+      color: #333;
+      line-height: 1.6;
+    }
+
+    header {
+      background: #c65d00;
+      color: white;
+      text-align: center;
+      padding: 80px 20px;
+    }
+
+    header h1 {
+      font-size: 3.5rem;
+      margin-bottom: 15px;
+    }
+
+    header p {
+      font-size: 1.2rem;
+      max-width: 700px;
+      margin: auto;
+    }
+
+    .container {
+      width: 90%;
+      max-width: 1200px;
+      margin: auto;
+      padding: 60px 0;
+    }
+
+    .about {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+      gap: 40px;
+      align-items: center;
+    }
+
+    .about-text h2,
+    .ingredients h2,
+    .features h2 {
+      color: #c65d00;
+      margin-bottom: 20px;
+      font-size: 2.2rem;
+    }
+
+    .about-text p {
+      margin-bottom: 20px;
+      font-size: 1.1rem;
+    }
+
+    .btn {
+      display: inline-block;
+      background: #c65d00;
+      color: white;
+      padding: 12px 25px;
+      border-radius: 10px;
+      text-decoration: none;
+      transition: 0.3s;
+    }
+
+    .btn:hover {
+      background: #9b4700;
+    }
+
+    .ingredients-box {
+      background: white;
+      padding: 30px;
+      border-radius: 20px;
+      box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+    }
+
+    .ingredient-list {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      gap: 15px;
+      margin-top: 20px;
+    }
+
+    .ingredient {
+      background: #ffe2c2;
+      padding: 15px;
+      text-align: center;
+      border-radius: 12px;
+      font-weight: bold;
+    }
+
+    .features {
+      background: #ffe9d6;
+      text-align: center;
+      padding: 70px 20px;
+    }
+
+    .feature-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 25px;
+      margin-top: 40px;
+    }
+
+    .feature-card {
+      background: white;
+      padding: 30px;
+      border-radius: 18px;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.08);
+    }
+
+    .feature-card h3 {
+      margin-bottom: 15px;
+      color: #c65d00;
+    }
+
+    footer {
+      background: #c65d00;
+      color: white;
+      text-align: center;
+      padding: 30px 20px;
+    }
+
+    footer p {
+      margin: 8px 0;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>Supreme Spices</h1>
+    <p>
+      Bringing rich African flavors and authentic pepper soup taste to every home.
+    </p>
+  </header>
+
+  <section class="container about">
+    <div class="about-text">
+      <h2>Premium Pepper Soup Spice Blend</h2>
+      <p>
+        Supreme Spices combines carefully selected natural ingredients to create
+        a delicious and aromatic pepper soup seasoning loved by families and food
+        lovers across Nigeria.
+      </p>
+      <a href="#ingredients" class="btn">Explore Our Spices</a>
+    </div>
+
+    <div class="ingredients-box" id="ingredients">
+      <h2>Key Ingredients</h2>
+      <div class="ingredient-list">
+        <div class="ingredient">Nutmeg</div>
+        <div class="ingredient">Uziza Seed</div>
+        <div class="ingredient">Black Pepper</div>
+        <div class="ingredient">Garlic</div>
+        <div class="ingredient">Ginger</div>
+        <div class="ingredient">Chili Pepper</div>
+        <div class="ingredient">Salt</div>
+      </div>
+    </div>
+  </section>
+
+  <section class="features">
+    <div class="container">
+      <h2>Why Choose Supreme Spices?</h2>
+
+      <div class="feature-grid">
+        <div class="feature-card">
+          <h3>Natural Ingredients</h3>
+          <p>
+            Made from carefully selected spices for freshness and authentic taste.
+          </p>
+        </div>
+
+        <div class="feature-card">
+          <h3>Rich Flavor</h3>
+          <p>
+            Perfectly blended to give your pepper soup a delicious aroma and spicy kick.
+          </p>
+        </div>
+
+        <div class="feature-card">
+          <h3>Trusted Quality</h3>
+          <p>
+            Loved by homes, restaurants, and spice lovers across Nigeria.
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <footer>
+    <p>© 2026 Supreme Spices. All Rights Reserved.</p>
+    <p>Website designed with credits to Samuel Bankefa.</p>
+  </footer>
+
+</body>
+</html>
